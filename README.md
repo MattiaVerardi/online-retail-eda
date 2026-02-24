@@ -1,6 +1,6 @@
-### **Online Retail EDA - Customers \& Sales Analysis**
+### Online Retail EDA - Customers \& Sales Analysis
 
-
+###### 
 
 
 
@@ -16,7 +16,7 @@ In particolare, vengono analizzate:
 
 
 
-* le transazioni effettuate, con un focus su quantità richieste, prezzi unitari e valore medio di spesa
+* &nbsp;le transazioni effettuate, con un focus su quantità richieste, prezzi unitari e valore medio di spesa
 * l'impatto delle vendite nel tempo
 * la distribuzione del fatturato per nazione e continente
 * i prodotti più venduti
@@ -30,7 +30,7 @@ In particolare, vengono analizzate:
 
 
 
-Il dataset utilizzato è *Online Retail.xlsx* e si compone di:
+Il dataset utilizzato è Online Retail.xlsx e si compone di:
 
 
 
@@ -47,8 +47,8 @@ Nella sezione Data Cleaning:
 
 * è stata creata una copia del dataset
 * sono state eliminate le righe duplicate
-* i valori mancanti nella colonna Description sono stati sostituiti con *MISSING*
-* sono state escluse le righe *con Quantity* e *UnitPrice* entrambe negative
+* i valori mancanti nella colonna *Description* sono stati sostituiti con *MISSING*
+* sono state escluse le righe con *Quantity* e *UnitPrice* entrambe negative
 
 
 
@@ -62,11 +62,7 @@ Successivamente, sono state create nuove colonne, quali *Continent*, *TotalPrice
 
 
 
-Durante il periodo oggetto di analisi, l'azienda ha fatturato quasi 11 milioni di sterline, ha registrato circa 4.500 clienti, ha emesso meno di 21.000 fatture e ha venduto circa 3.900 prodotti diversi.
-
-
-
-Dall'analisi aggregata delle varie transazioni, viene fuori una distribuzione fortemente asimmetrica a destra, in quanto l'azienda ha emesso tante fatture con bassi importi.
+Durante il periodo oggetto di analisi, l'azienda ha fatturato quasi 11 milioni di sterline, ha registrato circa 4.500 clienti, ha emesso meno di 21.000 fatture e ha venduto circa 3.900 prodotti diversi. Dall'analisi aggregata delle varie transazioni, viene fuori una distribuzione fortemente asimmetrica a destra, in quanto l'azienda ha emesso tante fatture con bassi importi.
 
 Nel mese di novembre 2011 le vendite registrano un picco significativo, con un aumento progressivo dal mese di ottobre. A livello settimanale, si evidenza che l'attività lavorativa è costante nei giorni lavorativi, è minore, seppure presente, di domenica e risulta assente il sabato.
 
@@ -90,7 +86,7 @@ L'ultima analisi condotta è stata quella inerente al RFM Score, dove ogni clien
 
 
 
-**Approfondimenti Chiave:**
+**Approfondimenti chiave:**
 
 
 
@@ -119,7 +115,7 @@ L'ultima analisi condotta è stata quella inerente al RFM Score, dove ogni clien
 
 
 
-\## Struttura del repository
+**Struttura del repository:**
 
 
 
@@ -127,28 +123,23 @@ L'ultima analisi condotta è stata quella inerente al RFM Score, dove ogni clien
 
 online-retail-eda/
 
-│   .gitignore
+├── data/
 
-│   README.md
-
-│   requirements.txt
+│   └─ Online Retail.xlsx
 
 │
 
-├───data
+├── notebooks
 
-│   └─── Online Retail.xlsx
+│   └─ online\_retail\_eda.ipynb
 
 │
 
-└───notebooks
+├── .gitignore
 
-&nbsp;   └─── online\_retail\_eda.ipynb
+├── README.md
 
-
+└── requirements.txt
 
 ```
-
-
-
 
