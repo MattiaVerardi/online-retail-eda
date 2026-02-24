@@ -123,5 +123,23 @@ L'ultima analisi condotta è stata quella inerente al RFM Score, dove ogni clien
 
 
 
+online-retail-eda/
+
+|
+
+├─ notebooks/
+
+|  └─ online\_retail\_eda.ipynb
+
+|
+
+├─ data/
+
+|  └─ Online Retail.xlsx	
+
+└─ README.md
+
+
+
 * notebook
 * dataset
