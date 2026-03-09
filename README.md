@@ -16,7 +16,7 @@ In particolare, vengono analizzate:
 
 
 
-* &nbsp;le transazioni effettuate, con un focus su quantità richieste, prezzi unitari e valore medio di spesa
+* le transazioni effettuate, con un focus su quantità richieste, prezzi unitari e valore medio di spesa
 * l'impatto delle vendite nel tempo
 * la distribuzione del fatturato per nazione e continente
 * i prodotti più venduti
